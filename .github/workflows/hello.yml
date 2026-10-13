@@ -3,6 +3,6 @@ name: Hello world
 on: push
 jobs:
   say-hello:
-    runs-on: ubuntu-latest
+    runs-on: mac-latest
     steps:
       - run: echo "Hello world!"
